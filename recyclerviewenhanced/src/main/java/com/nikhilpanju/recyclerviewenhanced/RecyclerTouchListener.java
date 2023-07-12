@@ -222,7 +222,7 @@ public class RecyclerTouchListener implements RecyclerView.OnItemTouchListener, 
         return this;
     }
 
-    /*public RecyclerTouchListener setLeftToRightSwipeable(int foregroundID, int backgroundID, OnSwipeOptionsClickListener listener) {
+    public RecyclerTouchListener setLeftToRightSwipeable(int foregroundID, int backgroundID, OnSwipeOptionsClickListener listener) {
         this.swipeableLeftOptions = true;
         if (fgViewID != 0 && foregroundID != fgViewID)
             throw new IllegalArgumentException("foregroundID does not match previously set ID");
@@ -238,7 +238,7 @@ public class RecyclerTouchListener implements RecyclerView.OnItemTouchListener, 
         screenHeight = displaymetrics.heightPixels;
 
         return this;
-    }*/
+    }
 
     public RecyclerTouchListener setSwipeable(boolean value) {
         this.swipeable = value;
